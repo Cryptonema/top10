@@ -29,13 +29,13 @@ async function getPrice(id) {
   coin = coin + "Dolares";
   console.log(coin);
 
-  let asignar = function (x) {
-    x.insertAdjacentHTML(
-      "afterbegin",
-      `<p>$ ${Dolares.toLocaleString("US-en")}</p>`
-    );
-  };
-  asignar(coin);
+  let asignar = function (x) {};
+  asignar();
+
+  bitcoinDolares.insertAdjacentHTML(
+    "afterbegin",
+    `<p>$ ${Dolares.toLocaleString("US-en")}</p>`
+  );
 
   ethereumDolares.insertAdjacentHTML(
     "afterbegin",
