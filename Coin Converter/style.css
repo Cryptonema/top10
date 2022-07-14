@@ -1,0 +1,170 @@
+/* 
+   Colores
+   #eff9f8 
+   #dff3f1
+   #afe1db
+    #5ec2b7
+    #428880
+    #1c3a37
+
+ 
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedor-principal {
+  /* background-image: url("web/fondo.jpg"); */
+  display: grid;
+  color: white;
+  border: 3px solid #000;
+  width: 100%;
+}
+
+.contenedor1 {
+  background-image: url("web/fondo.jpg");
+  width: 100%;
+}
+p {
+  color: black;
+}
+.subcontainer1 {
+  padding: 30px;
+  padding-left: 20px;
+}
+
+.top20 {
+  font-size: 70px;
+}
+
+.subtitulo-hero {
+  font-size: 30px;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.274);
+  text-transform: uppercase;
+  color: #dff3f1;
+}
+.contenedor2 {
+  color: black;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: #eff9f8;
+}
+
+/* Tabla */
+table {
+  font-family: "Roboto", sans-serif;
+  border: 3px solid;
+  width: 400px;
+  border-color: black;
+  border-collapse: collapse;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.548);
+}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dff3f1;
+}
+
+.firstrow {
+  background-color: #f9f5d7;
+}
+
+/* thead tr th:first-child, tbody tr td:first-child {
+                width: 50px;
+         
+                } */
+
+.subcontainer2 {
+  padding: 100px;
+}
+
+.titulo-contenedor2 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Sidebar */
+
+.sidebar {
+  border: 1px solid black;
+  height: 300 px;
+  width: 250px;
+  margin: 40px;
+  display: grid;
+  background-color: #eff9f8;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+img {
+  max-width: 70%;
+}
+
+.noticias-titulo {
+  padding-left: 15px;
+  margin-bottom: -5px;
+}
+
+.noticia {
+  margin: 15px;
+  margin-bottom: -10px;
+}
+
+.ligas {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+a:link,
+a:visited {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1c3a37;
+}
+a:hover {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #428880;
+  background-color: #f1bbc0;
+}
+
+a:active {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #afe1db;
+}
+
+footer {
+  background-image: url("web/fondo.jpg");
+  color: white;
+  width: 800px;
+}
